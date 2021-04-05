@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// restricted key
+// restricted api key
 const KEY = 'AIzaSyBoJEGRH-LZNlTks0xQdbHp6njOyJ7JsM8';
 
 export default axios.create({
