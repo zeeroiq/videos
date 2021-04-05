@@ -18,6 +18,7 @@ class App extends React.Component {
         return (
             <div className="ui container">
                 <SearchBar onFormSubmit={this.onTermSubmit}/>
+                Fetched {this.state.videos.length} videos.
             </div>
         );
     }
